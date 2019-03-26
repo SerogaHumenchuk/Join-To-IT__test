@@ -18,7 +18,7 @@ const QuotesCategoriesView = ({ categories }) => {
     <div>
       <h1 className={styles.title}>Fine Simpsons Quotes</h1>
       <p className={styles.subtitle}>
-        The best quotes from our multiplayer characters
+        The best quotes from our cartoon characters
       </p>
       <ul className={styles.list}>
         {categories &&
