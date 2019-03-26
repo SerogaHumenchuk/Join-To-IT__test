@@ -14,14 +14,14 @@ const App = () => {
           <Route component={QuotesCategoriesContainer} />
         </Switch>
       </div>
-      {/* <footer>
+      <footer>
         <p>
           This app was designed by
           <span className={styles.name}> Hymenchuk Serhiy</span> for{' '}
           <span className={styles.company}>Join·To·IT </span>
           in 2019
         </p>
-      </footer> */}
+      </footer>
     </div>
   );
 };
