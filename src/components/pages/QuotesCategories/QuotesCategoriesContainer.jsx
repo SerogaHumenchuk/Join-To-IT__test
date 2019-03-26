@@ -15,9 +15,9 @@ class QuotesCategoriesContainer extends Component {
   render() {
     const { categories } = this.props;
     return (
-      <div>
+      <>
         <QuotesCategoriesView categories={categories} />
-      </div>
+      </>
     );
   }
 }

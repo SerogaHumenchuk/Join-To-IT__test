@@ -15,7 +15,7 @@ import styles from './QuotesCategoriesView.module.css';
 
 const QuotesCategoriesView = ({ categories }) => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1 className={styles.title}>Fine Simpsons Quotes</h1>
       <p className={styles.subtitle}>
         The best quotes from our cartoon characters
