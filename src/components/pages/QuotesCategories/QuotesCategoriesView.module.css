@@ -1,0 +1,44 @@
+.title {
+  font-size: 30px;
+  color: #ffd700;
+  text-align: center;
+}
+.subtitle {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+.img {
+  width: 100%;
+  border-radius: 5px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  cursor: pointer;
+  width: 300px;
+  list-style: none;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+.character {
+  color: #ffd700;
+  display: inline-block;
+  border-bottom: 2px solid #ffd700;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 30px;
+    margin-bottom: 80px;
+  }
+}
