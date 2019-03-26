@@ -4,7 +4,7 @@ import styles from './Quote.module.css';
 
 const QuoteView = ({ qouteByCategory, randomQouteBtn, randomQoute }) => {
   return (
-    <>
+    <div className={styles.qoute}>
       <NavLink to="/" className={styles.btnComeBack} title="Back to categories">
         &#8249;
       </NavLink>
@@ -46,7 +46,7 @@ const QuoteView = ({ qouteByCategory, randomQouteBtn, randomQoute }) => {
           </button> */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

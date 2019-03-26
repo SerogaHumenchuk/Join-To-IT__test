@@ -10,6 +10,8 @@ footer {
   color: #ffd700;
   text-align: center;
   padding: 0 20px;
+  position: absolute;
+  width: 100%;
 }
 .company {
   font-size: 18px;

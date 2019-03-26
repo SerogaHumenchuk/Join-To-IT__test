@@ -8,9 +8,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #5ea6c3;
   font-family: 'Margarine', cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+footer {
+  margin: auto auto 0 auto;
 }

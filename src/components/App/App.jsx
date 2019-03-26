@@ -7,21 +7,21 @@ import QuoteContainer from '../pages/Quote/QuoteContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.wrapp}>
       <div className={styles.container}>
         <Switch>
           <Route path="/qoutes/:qoute" component={QuoteContainer} />
           <Route component={QuotesCategoriesContainer} />
         </Switch>
       </div>
-      <footer>
+      {/* <footer>
         <p>
           This app was designed by
           <span className={styles.name}> Hymenchuk Serhiy</span> for{' '}
           <span className={styles.company}>Join·To·IT </span>
           in 2019
         </p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
